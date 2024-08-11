@@ -67,7 +67,7 @@ CREATE TABLE manager (
     passport_details VARCHAR(50) NOT NULL UNIQUE
 );
 ```
-After that I imported data into these tables from Dataset CSV files that could be foundin this folder: [dataset_csv](/dataset_csv/).  
+After that I imported data into these tables from Dataset CSV files that could be found in this folder: [dataset_csv](/dataset_csv/).  
 
 # Writing SQL Queries to Answer Analytical Questions
 
