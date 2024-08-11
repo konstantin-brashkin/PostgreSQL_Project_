@@ -81,7 +81,7 @@ to answer 4 interesting analytical & business questions:
 
 Let's find out!
 
-### 1. What is the average revenue per rating for all cinemas?
+### 1. What is the average revenue per rating for all cinemas❓
 To answer this question I wrote this **SQL Query**:
 
 ```
@@ -133,7 +133,7 @@ The result of this Query:
 This Query is showing average revenue per rating for all cinemas. For example, from this query we can see that
 the most profitable💸 rating for cinema with id 1 is 'R'! 
 
-### 2. What movies were shown in our cinemas within at least three different cities + the total revenue from those movies?
+### 2. What movies were shown in our cinemas within at least three different cities + the total revenue from those movies❓
 Here are **SQL Query** I wrote to answer this question:
 
 ```
@@ -163,7 +163,7 @@ The result of this Query:
 This Query🔍 showing movies that were shown in our cinemas within at least three different cities 
 and the total revenue from those films!
 
-### 3. Which cinemas showed the Top 5 movie with the highest overall profits?
+### 3. Which cinemas showed the Top 5 movie with the highest overall profits❓
 To answer this question I wrote this **SQL Query**:
 
 ```
@@ -199,7 +199,7 @@ The result of this Query:
 In the first part this query calculates Top 5 movies by total revenue from screenings within all cinemas.
 In the second part it's grouping ids of cinemas that were showing these movies + the total revenue!
 
-### 4. What length ranges of movies are the most profitable?
+### 4. What length ranges of movies are the most profitable❓
 **SQL Query** I wrote to answer this question:
 
 ```
