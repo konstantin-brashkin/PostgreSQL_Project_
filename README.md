@@ -9,7 +9,7 @@ those tables in this folder: [creating_tables_sql](/creating_tables_sql/), I wil
 
 After setting up database & tables and importing the dataset I wrote SQL Queries🔍 to answer 4
 analytical & business questions. You can find all 4 SQL files with Queries to answer each of these 
-question in this folder: [queries_sql](/queries_sql/)
+question in this folder: [queries_sql](/queries_sql/).
 
 Let's get into it!
 
