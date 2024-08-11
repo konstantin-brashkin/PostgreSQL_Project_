@@ -86,7 +86,8 @@ To answer this question I wrote this **SQL Query**:
 
 ```
 SELECT cinema.cinema_id, screening.rating,
-	ROUND(AVG(screening.ticket_price * (screening.total_seats - screening.available_seats)), 2) AS avg_revenue
+	ROUND(AVG(screening.ticket_price * (screening.total_seats - screening.available_seats)), 2) 
+	AS avg_revenue
 FROM screening
 JOIN cinema ON screening.cinema_id = cinema.cinema_id
 GROUP BY  cinema.cinema_id, screening.rating
