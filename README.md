@@ -19,7 +19,7 @@ Let's get into it!
 
 As I already said, first step was designing and creating tables, so I can import dataset from CSV files.
 As a result, three tables was created📅, one for storing information about all cinemas, second for keeping
-screenings data and third for storing personal info of managers of these cinemas. Here is **SQL Queries**
+screenings data and third for storing personal info of managers of these cinemas. Here are **SQL Queries**
 I wrote to create those tables:
 
 ```
@@ -135,7 +135,7 @@ This Query is showing average revenue per rating for all cinemas. For example, f
 the most profitable💸 rating for cinema with id 1 is 'R'! 
 
 ### 2. What movies were shown in our cinemas within at least three different cities + the total revenue from those movies?
-Here is **SQL Query** I wrote to answer this question:
+Here are **SQL Query** I wrote to answer this question:
 
 ```
 SELECT screening.movie_title, 
