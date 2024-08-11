@@ -79,6 +79,155 @@ to answer 4 interesting analytical & business questions:
 - Which cinemas showed the Top 5 movie with the highest overall profits❓
 - What length ranges of movies are the most profitable❓
 
+Let's find out!
+
+### 1. What is the average revenue per rating for all cinemas?
+To answer this question I wrote this **SQL Query**:
+
+```
+SELECT cinema.cinema_id, screening.rating,
+	ROUND(AVG(screening.ticket_price * (screening.total_seats - screening.available_seats)), 2) AS avg_revenue
+FROM screening
+JOIN cinema ON screening.cinema_id = cinema.cinema_id
+GROUP BY  cinema.cinema_id, screening.rating
+ORDER BY cinema.cinema_id, avg_revenue DESC;
+```
+The result of this Query:
+
+| cinema_id | rating | avg_revenue |
+|-----------|--------|-------------|
+| 1         | R      | 378.13      |
+| 1         | PG     | 200.00      |
+| 1         | G      | 168.75      |
+| 1         | PG-13  | 131.96      |
+| 2         | PG     | 292.50      |
+| 2         | PG-13  | 286.56      |
+| 2         | R      | 222.50      |
+| 2         | G      | 180.00      |
+| 3         | PG     | 190.00      |
+| 3         | R      | 162.50      |
+| 3         | PG-13  | 159.58      |
+| 4         | R      | 258.75      |
+| 4         | PG-13  | 240.00      |
+| 4         | PG     | 174.38      |
+| 5         | R      | 298.13      |
+| 5         | PG-13  | 240.31      |
+| 5         | PG     | 202.50      |
+| 6         | PG-13  | 265.45      |
+| 6         | R      | 210.63      |
+| 6         | PG     | 106.25      |
+| 7         | R      | 275.63      |
+| 7         | PG-13  | 247.50      |
+| 7         | PG     | 180.00      |
+| 8         | R      | 258.75      |
+| 8         | PG-13  | 240.00      |
+| 8         | PG     | 174.38      |
+| 9         | R      | 275.63      |
+| 9         | PG-13  | 247.50      |
+| 9         | PG     | 185.63      |
+| 10        | R      | 258.75      |
+| 10        | PG-13  | 241.88      |
+| 10        | PG     | 172.50      |
+
+This Query is showing average revenue per rating for all cinemas. For example, from this query we can see that
+the most profitable💸 rating for cinema with id 1 is 'R'! 
+
+### 2. What movies were shown in our cinemas within at least three different cities + the total revenue from those movies?
+Here is **SQL Query** I wrote to answer this question:
+
+```
+SELECT screening.movie_title, 
+SUM(
+	CASE 
+	WHEN screening.available_seats < screening.total_seats 
+	THEN screening.ticket_price * (screening.total_seats - screening.available_seats) 
+	ELSE 0 END) AS total_revenue
+FROM screening
+JOIN cinema ON screening.cinema_id = cinema.cinema_id
+GROUP BY screening.movie_title
+HAVING COUNT(DISTINCT cinema.city) > 3
+ORDER BY total_revenue DESC;
+```
+The result of this Query:
+
+| movie_title                                       | total_revenue |
+|---------------------------------------------------|---------------|
+| The Green Knight                                  | 3127.50       |
+| Free Guy                                          | 2362.50       |
+| Shang-Chi and the Legend of the Ten Rings         | 1840.00       |
+| The Suicide Squad                                 | 1820.00       |
+| Encanto                                           | 1360.00       |
+
+
+This Query🔍 showing movies that were shown in our cinemas within at least three different cities 
+and the total revenue from those films!
+
+### 3. Which cinemas showed the Top 5 movie with the highest overall profits?
+To answer this question I wrote this **SQL Query**:
+
+```
+-- First part of the Query
+
+WITH Top5Movies AS (
+    SELECT movie_title, SUM(ticket_price * (total_seats - available_seats)) AS total_revenue
+    FROM screening
+    GROUP BY movie_title
+    ORDER BY total_revenue DESC
+    LIMIT 5
+)
+
+-- Second part of the Query
+
+SELECT T.movie_title, STRING_AGG(DISTINCT S.cinema_id::TEXT, ', ') AS cinema_ids, 
+SUM(S.ticket_price * (S.total_seats - S.available_seats)) AS total_revenue
+FROM screening S
+JOIN Top5Movies T ON S.movie_title = T.movie_title
+GROUP BY T.movie_title
+ORDER BY total_revenue DESC;
+```
+The result of this Query:
+
+| movie_title                                    | cinema_ids             | total_revenue |
+|------------------------------------------------|------------------------|---------------|
+| The Green Knight                               | 10, 4, 6, 7, 8, 9      | 3127.50       |
+| Free Guy                                       | 4, 6, 7, 8, 9          | 2362.50       |
+| Shang-Chi and the Legend of the Ten Rings      | 3, 6, 7, 9             | 1840.00       |
+| The Suicide Squad                              | 3, 6, 7, 9             | 1820.00       |
+| The Matrix Resurrections                       | 1, 2, 5                | 1680.00       |
+
+In the first part this query calculates Top 5 movies by total revenue from screenings within all cinemas.
+In the second part it's grouping ids of cinemas that were showing these movies + the total revenue!
+
+### 4. What length ranges of movies are the most profitable?
+**SQL Query** I wrote to answer this question:
+
+```
+SELECT
+    CASE
+        WHEN length BETWEEN 0 AND 90 THEN '0-90 minutes'
+        WHEN length BETWEEN 91 AND 120 THEN '91-120 minutes'
+        WHEN length BETWEEN 121 AND 150 THEN '121-150 minutes'
+        WHEN length > 150 THEN '151+ minutes'
+    END AS length_range,
+    SUM((total_seats - available_seats) * ticket_price) AS total_revenue_per_range
+FROM screening
+GROUP BY length_range
+ORDER BY total_revenue_per_range DESC;
+```
+The result of this Query:
+
+| length_range       | total_revenue_per_range |
+|--------------------|-------------------------|
+| 91-120 minutes     | 13792.50                |
+| 121-150 minutes    | 12077.50                |
+| 151+ minutes       | 6026.00                 |
+| 0-90 minutes       | 337.50                  |
+
+This Query groups length of the movies into 4 range groups and showing total revenue per range,
+as you can see 91-120 and 121-150 are the most profitable📈 length ranges within our cinemas!
+
+All SQL files with these queries could be found in this folder: [queries_sql](/queries_sql/).  
+All results of this queries exported in CSV files could be found here: [results_csv](/results_csv/).
 
 # Conclusions
 ✅
@@ -87,9 +236,4 @@ fdsfds
 - fsd
 - fs
 
-[link](//)
-📊
-📅
-🔍
-❓
-🎦
+
