@@ -2,7 +2,7 @@
 Hi! This is my **PostgreSQL Portfolio Project** that involves working with a business dataset of a cinema 
 chain in Germany🎦.
 
-At first, I designed and created a tables in a database, so I can import the dataset 
+At first, I designed and created tables in a database, so I can import the dataset 
 from CSV files📅. The database stores data related to the cinemas, the screenings they host, and the 
 managers responsible for each cinema. You can find a whole SQL file with a code that I wrote to create 
 those tables in this folder: [creating_tables_sql](/creating_tables_sql/), I will also discuss it in the next section.  
