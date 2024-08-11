@@ -1,0 +1,6 @@
+"manager_id","manager_name","age","annual_salary","phone","email","passport_details"
+1,"Hans Müller",35,"80000.00","+49 30 1234567","hmueller@cinema.de","AB1234567"
+2,"Sabine Schmidt",39,"75000.00","+49 89 7654321","sschmidt@cinema.de","CD2345678"
+3,"Thomas Becker",52,"68000.00","+49 40 2345678","tbecker@cinema.de","EF3456789"
+4,"Katrin Wagner",47,"43000.00","+49 53 7980214","kwagner@cinema.de","GH4567890"
+5,"Noah Schneider",42,"43000.00","+49 69 3456789","nschneider@cinema.de","BJ567891"

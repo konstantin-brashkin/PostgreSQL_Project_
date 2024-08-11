@@ -1,0 +1,146 @@
+"screening_id","cinema_id","movie_title","screening_timestamp","screen_number","available_seats","total_seats","language","subtitle_language","ticket_price","rating","length"
+1,1,"Oppenheimer","2024-08-08 18:30:00",1,120,150,"English","German","12.50","R",180
+2,1,"Oppenheimer","2024-08-09 18:30:00",1,115,150,"English","German","12.50","R",180
+67,5,"Oppenheimer","2024-08-08 18:00:00",2,100,120,"English","German","12.50","R",180
+68,5,"Oppenheimer","2024-08-09 18:00:00",2,95,120,"English","German","12.50","R",180
+3,1,"Barbie","2024-08-08 20:00:00",2,150,150,"German",NULL,"10.00","PG-13",114
+4,1,"Barbie","2024-08-09 20:00:00",2,140,150,"German",NULL,"10.00","PG-13",114
+73,5,"Barbie","2024-08-08 16:30:00",5,220,240,"German",NULL,"10.00","PG-13",114
+74,5,"Barbie","2024-08-09 16:30:00",5,215,240,"German",NULL,"10.00","PG-13",114
+5,1,"Mission: Impossible - Dead Reckoning","2024-08-08 19:45:00",3,85,100,"English","German","11.00","PG-13",163
+6,1,"Mission: Impossible - Dead Reckoning","2024-08-09 19:45:00",3,90,100,"English","German","11.00","PG-13",163
+7,1,"Avatar: The Way of Water","2024-08-08 21:00:00",4,300,300,"English",NULL,"15.00","PG-13",192
+8,1,"Avatar: The Way of Water","2024-08-09 21:00:00",4,290,300,"English",NULL,"15.00","PG-13",192
+71,5,"Avatar: The Way of Water","2024-08-08 20:30:00",4,200,220,"English",NULL,"15.00","PG-13",192
+72,5,"Avatar: The Way of Water","2024-08-09 20:30:00",4,195,220,"English",NULL,"15.00","PG-13",192
+9,1,"The Batman","2024-08-08 16:00:00",5,180,200,"German",NULL,"9.50","PG-13",176
+10,1,"The Batman","2024-08-09 16:00:00",5,175,200,"German",NULL,"9.50","PG-13",176
+11,1,"Dune","2024-08-08 22:30:00",6,60,70,"English","German","13.00","PG-13",155
+12,1,"Dune","2024-08-09 22:30:00",6,58,70,"English","German","13.00","PG-13",155
+69,5,"Dune","2024-08-08 22:30:00",3,90,100,"English","German","13.00","PG-13",155
+70,5,"Dune","2024-08-09 22:30:00",3,85,100,"English","German","13.00","PG-13",155
+13,1,"The Matrix Resurrections","2024-08-08 21:00:00",7,160,180,"English","German","14.00","R",148
+14,1,"The Matrix Resurrections","2024-08-09 21:00:00",7,150,180,"English","German","14.00","R",148
+27,2,"The Matrix Resurrections","2024-08-08 21:00:00",4,140,150,"English","German","14.00","R",148
+28,2,"The Matrix Resurrections","2024-08-09 21:00:00",4,135,150,"English","German","14.00","R",148
+65,5,"The Matrix Resurrections","2024-08-08 21:00:00",1,130,150,"English","German","14.00","R",148
+66,5,"The Matrix Resurrections","2024-08-09 21:00:00",1,125,150,"English","German","14.00","R",148
+15,1,"Frozen II","2024-08-08 17:00:00",8,300,320,"German",NULL,"8.00","PG",103
+16,1,"Frozen II","2024-08-09 17:00:00",8,290,320,"German",NULL,"8.00","PG",103
+17,1,"Inception","2024-08-08 19:00:00",9,250,260,"English","German","11.50","PG-13",148
+18,1,"Inception","2024-08-09 19:00:00",9,240,260,"English","German","11.50","PG-13",148
+19,1,"The Lion King","2024-08-08 14:00:00",10,180,200,"German",NULL,"7.50","G",88
+20,1,"The Lion King","2024-08-09 14:00:00",10,175,200,"German",NULL,"7.50","G",88
+21,2,"Tenet","2024-08-08 18:00:00",1,100,120,"English","German","11.50","PG-13",150
+22,2,"Tenet","2024-08-09 18:00:00",1,95,120,"English","German","11.50","PG-13",150
+23,2,"Black Widow","2024-08-08 20:30:00",2,200,220,"German",NULL,"10.50","PG-13",134
+24,2,"Black Widow","2024-08-09 20:30:00",2,190,220,"German",NULL,"10.50","PG-13",134
+75,5,"Black Widow","2024-08-08 19:45:00",6,150,170,"German",NULL,"10.50","PG-13",134
+76,5,"Black Widow","2024-08-09 19:45:00",6,145,170,"German",NULL,"10.50","PG-13",134
+25,2,"Soul","2024-08-08 16:00:00",3,120,150,"German",NULL,"9.00","PG",100
+26,2,"Soul","2024-08-09 16:00:00",3,115,150,"German",NULL,"9.00","PG",100
+96,7,"Soul","2024-08-08 16:00:00",1,180,200,"German",NULL,"8.50","PG",100
+97,7,"Soul","2024-08-09 16:00:00",1,175,200,"German",NULL,"8.50","PG",100
+130,9,"Soul","2024-08-08 16:30:00",5,160,180,"German",NULL,"8.50","PG",100
+131,9,"Soul","2024-08-09 16:30:00",5,155,180,"German",NULL,"8.50","PG",100
+29,2,"The Conjuring: The Devil Made Me Do It","2024-08-08 22:30:00",5,80,100,"English","German","12.00","R",111
+30,2,"The Conjuring: The Devil Made Me Do It","2024-08-09 22:30:00",5,75,100,"English","German","12.00","R",111
+31,2,"Jungle Cruise","2024-08-08 18:15:00",6,170,200,"German",NULL,"10.00","PG-13",127
+32,2,"Jungle Cruise","2024-08-09 18:15:00",6,165,200,"German",NULL,"10.00","PG-13",127
+89,6,"Jungle Cruise","2024-08-08 17:00:00",6,150,170,"German",NULL,"10.00","PG-13",127
+33,2,"Godzilla vs. Kong","2024-08-08 19:45:00",7,230,250,"English","German","12.00","PG-13",113
+34,2,"Godzilla vs. Kong","2024-08-09 19:45:00",7,220,250,"English","German","12.00","PG-13",113
+85,6,"Godzilla vs. Kong","2024-08-08 19:30:00",4,210,230,"English","German","12.00","PG-13",113
+86,6,"Godzilla vs. Kong","2024-08-09 19:30:00",4,205,230,"English","German","12.00","PG-13",113
+35,2,"Toy Story 4","2024-08-08 14:30:00",8,180,200,"German",NULL,"8.00","G",100
+36,2,"Toy Story 4","2024-08-09 14:30:00",8,175,200,"German",NULL,"8.00","G",100
+37,3,"Shang-Chi and the Legend of the Ten Rings","2024-08-08 19:00:00",1,120,130,"English","German","11.50","PG-13",132
+38,3,"Shang-Chi and the Legend of the Ten Rings","2024-08-09 19:00:00",1,115,130,"English","German","11.50","PG-13",132
+83,6,"Shang-Chi and the Legend of the Ten Rings","2024-08-08 18:00:00",3,130,150,"English","German","11.50","PG-13",132
+84,6,"Shang-Chi and the Legend of the Ten Rings","2024-08-09 18:00:00",3,125,150,"English","German","11.50","PG-13",132
+104,7,"Shang-Chi and the Legend of the Ten Rings","2024-08-08 18:00:00",5,140,160,"English","German","11.50","PG-13",132
+105,7,"Shang-Chi and the Legend of the Ten Rings","2024-08-09 18:00:00",5,135,160,"English","German","11.50","PG-13",132
+124,9,"Shang-Chi and the Legend of the Ten Rings","2024-08-08 19:00:00",2,160,180,"English","German","11.50","PG-13",132
+125,9,"Shang-Chi and the Legend of the Ten Rings","2024-08-09 19:00:00",2,155,180,"English","German","11.50","PG-13",132
+39,3,"Cruella","2024-08-08 17:00:00",2,140,150,"German",NULL,"10.00","PG-13",134
+40,3,"Cruella","2024-08-09 17:00:00",2,135,150,"German",NULL,"10.00","PG-13",134
+90,6,"Cruella","2024-08-08 17:00:00",6,120,150,"German",NULL,"10.00","PG-13",134
+91,6,"Cruella","2024-08-09 17:00:00",6,115,150,"German",NULL,"10.00","PG-13",134
+41,3,"No Time to Die","2024-08-08 20:00:00",3,85,100,"English","German","12.00","PG-13",163
+42,3,"No Time to Die","2024-08-09 20:00:00",3,80,100,"English","German","12.00","PG-13",163
+87,6,"No Time to Die","2024-08-08 22:00:00",5,180,200,"English","German","12.00","PG-13",163
+88,6,"No Time to Die","2024-08-09 22:00:00",5,175,200,"English","German","12.00","PG-13",163
+43,3,"Raya and the Last Dragon","2024-08-08 16:30:00",4,200,220,"German",NULL,"9.00","PG",107
+44,3,"Raya and the Last Dragon","2024-08-09 16:30:00",4,195,220,"German",NULL,"9.00","PG",107
+77,5,"Raya and the Last Dragon","2024-08-08 14:00:00",7,240,260,"German",NULL,"9.00","PG",107
+78,5,"Raya and the Last Dragon","2024-08-09 14:00:00",7,235,260,"German",NULL,"9.00","PG",107
+45,3,"The Suicide Squad","2024-08-08 21:30:00",5,70,80,"English","German","13.00","R",132
+46,3,"The Suicide Squad","2024-08-09 21:30:00",5,65,80,"English","German","13.00","R",132
+81,6,"The Suicide Squad","2024-08-08 20:00:00",2,110,120,"English","German","13.00","R",132
+82,6,"The Suicide Squad","2024-08-09 20:00:00",2,105,120,"English","German","13.00","R",132
+102,7,"The Suicide Squad","2024-08-08 21:30:00",4,120,140,"English","German","13.00","R",132
+103,7,"The Suicide Squad","2024-08-09 21:30:00",4,115,140,"English","German","13.00","R",132
+122,9,"The Suicide Squad","2024-08-08 21:30:00",1,140,160,"English","German","13.00","R",132
+123,9,"The Suicide Squad","2024-08-09 21:30:00",1,135,160,"English","German","13.00","R",132
+47,3,"Space Jam: A New Legacy","2024-08-08 14:00:00",6,300,320,"German",NULL,"7.50","PG",115
+48,3,"Space Jam: A New Legacy","2024-08-09 14:00:00",6,290,320,"German",NULL,"7.50","PG",115
+100,7,"Space Jam: A New Legacy","2024-08-08 19:30:00",3,150,170,"German",NULL,"7.50","PG",115
+101,7,"Space Jam: A New Legacy","2024-08-09 19:30:00",3,145,170,"German",NULL,"7.50","PG",115
+134,10,"Space Jam: A New Legacy","2024-08-08 19:00:00",1,130,150,"German",NULL,"7.50","PG",115
+135,10,"Space Jam: A New Legacy","2024-08-09 19:00:00",1,125,150,"German",NULL,"7.50","PG",115
+49,3,"Luca","2024-08-08 15:30:00",7,260,280,"German",NULL,"8.00","PG",95
+50,3,"Luca","2024-08-09 15:30:00",7,255,280,"German",NULL,"8.00","PG",95
+98,7,"Luca","2024-08-08 17:45:00",2,200,220,"German",NULL,"8.00","PG",95
+99,7,"Luca","2024-08-09 17:45:00",2,195,220,"German",NULL,"8.00","PG",95
+132,9,"Luca","2024-08-08 15:00:00",6,170,190,"German",NULL,"8.00","PG",95
+133,9,"Luca","2024-08-09 15:00:00",6,165,190,"German",NULL,"8.00","PG",95
+51,4,"The French Dispatch","2024-08-08 19:30:00",1,130,150,"English","German","11.00","R",107
+52,4,"The French Dispatch","2024-08-09 19:30:00",1,125,150,"English","German","11.00","R",107
+53,4,"Free Guy","2024-08-08 21:15:00",2,180,200,"German",NULL,"10.50","PG-13",115
+54,4,"Free Guy","2024-08-09 21:15:00",2,175,200,"German",NULL,"10.50","PG-13",115
+94,6,"Free Guy","2024-08-08 20:30:00",8,150,170,"German",NULL,"10.50","PG-13",115
+95,6,"Free Guy","2024-08-09 20:30:00",8,145,170,"German",NULL,"10.50","PG-13",115
+108,7,"Free Guy","2024-08-08 22:00:00",7,170,190,"German",NULL,"10.50","PG-13",115
+109,7,"Free Guy","2024-08-09 22:00:00",7,165,190,"German",NULL,"10.50","PG-13",115
+120,8,"Free Guy","2024-08-08 22:45:00",6,200,220,"German",NULL,"10.50","PG-13",115
+121,8,"Free Guy","2024-08-09 22:45:00",6,195,220,"German",NULL,"10.50","PG-13",115
+128,9,"Free Guy","2024-08-08 20:00:00",4,210,230,"German",NULL,"10.50","PG-13",115
+129,9,"Free Guy","2024-08-09 20:00:00",4,205,230,"German",NULL,"10.50","PG-13",115
+55,4,"The Green Knight","2024-08-08 20:00:00",3,100,120,"English","German","12.00","R",130
+56,4,"The Green Knight","2024-08-09 20:00:00",3,95,120,"English","German","12.00","R",130
+92,6,"The Green Knight","2024-08-08 19:00:00",7,90,110,"English","German","11.50","R",130
+93,6,"The Green Knight","2024-08-09 19:00:00",7,85,110,"English","German","11.50","R",130
+106,7,"The Green Knight","2024-08-08 20:30:00",6,90,110,"English","German","11.50","R",130
+107,7,"The Green Knight","2024-08-09 20:30:00",6,85,110,"English","German","11.50","R",130
+118,8,"The Green Knight","2024-08-08 21:00:00",5,80,100,"English","German","11.50","R",130
+119,8,"The Green Knight","2024-08-09 21:00:00",5,75,100,"English","German","11.50","R",130
+126,9,"The Green Knight","2024-08-08 22:30:00",3,100,120,"English","German","11.50","R",130
+127,9,"The Green Knight","2024-08-09 22:30:00",3,95,120,"English","German","11.50","R",130
+144,10,"The Green Knight","2024-08-08 20:45:00",6,120,140,"English","German","11.50","R",130
+145,10,"The Green Knight","2024-08-09 20:45:00",6,115,140,"English","German","11.50","R",130
+57,4,"Encanto","2024-08-08 14:30:00",4,220,240,"German",NULL,"8.50","PG",102
+58,4,"Encanto","2024-08-09 14:30:00",4,215,240,"German",NULL,"8.50","PG",102
+79,6,"Encanto","2024-08-08 16:00:00",1,190,200,"German",NULL,"8.50","PG",102
+80,6,"Encanto","2024-08-09 16:00:00",1,185,200,"German",NULL,"8.50","PG",102
+110,8,"Encanto","2024-08-08 14:00:00",1,220,240,"German",NULL,"8.50","PG",102
+111,8,"Encanto","2024-08-09 14:00:00",1,215,240,"German",NULL,"8.50","PG",102
+136,10,"Encanto","2024-08-08 16:00:00",2,200,220,"German",NULL,"8.50","PG",102
+137,10,"Encanto","2024-08-09 16:00:00",2,195,220,"German",NULL,"8.50","PG",102
+59,4,"Eternals","2024-08-08 22:00:00",5,70,90,"English","German","11.50","PG-13",156
+60,4,"Eternals","2024-08-09 22:00:00",5,65,90,"English","German","11.50","PG-13",156
+116,8,"Eternals","2024-08-08 19:15:00",4,140,160,"English","German","11.50","PG-13",156
+117,8,"Eternals","2024-08-09 19:15:00",4,135,160,"English","German","11.50","PG-13",156
+142,10,"Eternals","2024-08-08 23:00:00",5,160,180,"English","German","11.50","PG-13",156
+143,10,"Eternals","2024-08-09 23:00:00",5,155,180,"English","German","11.50","PG-13",156
+61,4,"A Quiet Place Part II","2024-08-08 18:00:00",6,200,220,"English","German","10.00","PG-13",97
+62,4,"A Quiet Place Part II","2024-08-09 18:00:00",6,195,220,"English","German","10.00","PG-13",97
+114,8,"A Quiet Place Part II","2024-08-08 17:30:00",3,160,180,"English","German","10.00","PG-13",97
+115,8,"A Quiet Place Part II","2024-08-09 17:30:00",3,155,180,"English","German","10.00","PG-13",97
+140,10,"A Quiet Place Part II","2024-08-08 21:00:00",4,180,200,"English","German","10.00","PG-13",97
+141,10,"A Quiet Place Part II","2024-08-09 21:00:00",4,175,200,"English","German","10.00","PG-13",97
+63,4,"The Boss Baby: Family Business","2024-08-08 13:30:00",7,180,200,"German",NULL,"7.00","PG",107
+64,4,"The Boss Baby: Family Business","2024-08-09 13:30:00",7,175,200,"German",NULL,"7.00","PG",107
+112,8,"The Boss Baby: Family Business","2024-08-08 15:45:00",2,190,210,"German",NULL,"7.00","PG",107
+113,8,"The Boss Baby: Family Business","2024-08-09 15:45:00",2,185,210,"German",NULL,"7.00","PG",107
+138,10,"The Boss Baby: Family Business","2024-08-08 18:45:00",3,170,190,"German",NULL,"7.00","PG",107
+139,10,"The Boss Baby: Family Business","2024-08-09 18:45:00",3,165,190,"German",NULL,"7.00","PG",107
