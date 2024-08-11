@@ -5,7 +5,8 @@ chain in Germany🎦
 At first, I designed and created a tables in a database, so I can import the dataset 
 from CSV files📅. The database stores data related to the cinemas, the screenings they host, and the 
 managers responsible for each cinema. You can find a whole SQL file with a code that I wrote to create 
-those tables in this folder: [creating_tables_sql](/creating_tables_sql/), I will also discuss it in the next section.
+those tables in this folder: [creating_tables_sql](/creating_tables_sql/), I will also discuss it in the next section.  
+The actual dataset itself could be found in this folder: [dataset_csv](/dataset_csv/).
 
 After setting up database & tables and importing the dataset I wrote **SQL Queries**🔍 to answer 4
 analytical & business questions. You can find all 4 SQL files with Queries to answer each of these 
@@ -66,8 +67,8 @@ CREATE TABLE manager (
     passport_details VARCHAR(50) NOT NULL UNIQUE
 );
 ```
-
-That's it, and you also can this SQL file in this folder: [creating_tables_sql](/creating_tables_sql/).
+After that I imported data into these tables from Dataset CSV files that could be foundin this folder: [dataset_csv](/dataset_csv/).  
+That's it, and you also can find this SQL file in this folder: [creating_tables_sql](/creating_tables_sql/).
 
 # Writing SQL Queries to Answer Analytical Questions
 
@@ -236,6 +237,7 @@ This **PostgreSQL** project showcases the process of designing & creating tables
 CSV files. In result, 4 analytical & business questions were successfully answered✅
 
 SQL file with a code that I wrote to create those tables in this folder: [creating_tables_sql](/creating_tables_sql/).  
+The actual dataset could be found in this folder: [dataset_csv](/dataset_csv/).  
 4 SQL files with Queries to answer each of these question in this folder: [queries_sql](/queries_sql/).  
 The results of these Queries in this folder: [results_csv](/results_csv/).
 
