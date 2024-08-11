@@ -71,6 +71,13 @@ That's it, and you also can this SQL file in this folder: [creating_tables_sql](
 
 # Writing SQL Queries to Answer Analytical Questions
 
+Now, when everything is finally set up, It's time to actually write **SQL Queries** to analyze 📊 the data 
+to answer 4 interesting analytical & business questions:
+
+- What is the average revenue per rating for all cinemas❓
+- What movies were shown in our cinemas within at least three different cities + the total revenue from those movies❓
+- Which cinemas showed the Top 5 movie with the highest overall profits❓
+- What length ranges of movies are the most profitable❓
 
 
 # Conclusions
