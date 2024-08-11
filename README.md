@@ -231,10 +231,14 @@ All SQL files with these queries could be found in this folder: [queries_sql](/q
 All results of this queries exported in CSV files could be found here: [results_csv](/results_csv/).
 
 # Conclusions
-✅
-fdsfds
-- **SQL**
-- fsd
-- fs
+
+This **PostgreSQL** project showcases the process of designing & creating tables in database to import dataset from
+CSV files. In result, 4 analytical & business questions were successfully answered✅
+
+SQL file with a code that I wrote to create those tables in this folder: [creating_tables_sql](/creating_tables_sql/).  
+4 SQL files with Queries to answer each of these question in this folder: [queries_sql](/queries_sql/).  
+The results of these Queries in this folder: [results_csv](/results_csv/).
+
+**Thank you for your attention!**
 
 
