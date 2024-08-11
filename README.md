@@ -68,7 +68,6 @@ CREATE TABLE manager (
 );
 ```
 After that I imported data into these tables from Dataset CSV files that could be foundin this folder: [dataset_csv](/dataset_csv/).  
-That's it, and you also can find this SQL file in this folder: [creating_tables_sql](/creating_tables_sql/).
 
 # Writing SQL Queries to Answer Analytical Questions
 
