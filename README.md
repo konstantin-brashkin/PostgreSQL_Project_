@@ -18,7 +18,7 @@ Let's get into it!
 
 As I already said, first step was designing and creating tables, so I can import dataset from CSV files.
 As a result, three tables was created📅, one for storing information about all cinemas, second for keeping
-screenings data and third for storing personal info of managers of these cinemas. Here is SQL Queries
+screenings data and third for storing personal info of managers of these cinemas. Here is **SQL Queries**
 I wrote to create those tables:
 
 ```
