@@ -1,4 +1,4 @@
--- This Query showing movies that where shown in our cinemas within at least three different cities 
+-- This Query showing movies that were shown in our cinemas within at least three different cities 
 -- and the total revenue from those films
 
 SELECT screening.movie_title, 
