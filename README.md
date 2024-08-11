@@ -1,6 +1,6 @@
 # Introduction
 Hi! This is my **PostgreSQL Portfolio Project** that involves working with a business dataset of a cinema 
-chain in Germany🎦 
+chain in Germany🎦.
 
 At first, I designed and created a tables in a database, so I can import the dataset 
 from CSV files📅. The database stores data related to the cinemas, the screenings they host, and the 
