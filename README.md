@@ -240,6 +240,6 @@ The actual dataset could be found in this folder: [dataset_csv](/dataset_csv/).
 4 SQL files with Queries to answer each of these question in this folder: [queries_sql](/queries_sql/).  
 The results of these Queries in this folder: [results_csv](/results_csv/).
 
-**Thank you for your attention!**
+_**Thank you for your attention!**_
 
 
