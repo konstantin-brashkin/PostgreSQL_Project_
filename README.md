@@ -1,5 +1,5 @@
 # Introduction
-Hi! This is my **PostgreSQL Portfolio Project** that involves working with a business dataset of a cinema 
+Hi! This is my **PostgreSQL Portfolio Project**, which involves working with a business dataset of a cinema 
 chain in Germany🎦.
 
 At first, I designed and created tables in a database, so I can import the dataset 
